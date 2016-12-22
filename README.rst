@@ -67,11 +67,17 @@ sudo apt-get install -y google-mock libboost-all-dev  libeigen3-dev libgflags-de
 Ceres-solver:
 
 cd catkin_ws
+
 git clone https://github.com/hitcm/ceres-solver-1.11.0.git
+
 mkdir -p ceres-solver-1.11.0/build
+
 cd ceres-solver-1.11.0/build
+
 cmake ..
+
 make –j
+
 sudo make install
 
 Google Cartographer:
