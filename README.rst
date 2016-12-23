@@ -66,7 +66,7 @@ sudo apt-get install -y google-mock libboost-all-dev  libeigen3-dev libgflags-de
 
 Ceres-solver:
 
-cd catkin_ws
+cd ~/catkin_ws
 
 git clone https://github.com/hitcm/ceres-solver-1.11.0.git
 
@@ -76,13 +76,23 @@ cd ceres-solver-1.11.0/build
 
 cmake ..
 
-make –j
+make 
 
 sudo make install
 
 Google Cartographer:
 
 Google Cartographer For ROS:
+
+Rplidar For ROS:
+
+cd ~/catkin_ws/src
+
+https://github.com/robopeak/rplidar_ros
+
+cd ~/catkin_ws
+
+catkin_make
 
 
 
