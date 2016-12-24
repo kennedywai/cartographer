@@ -82,6 +82,22 @@ sudo make install
 
 Google Cartographer:
 
+cd ~/catkin_ws
+
+git clone https://github.com/hitcm/cartographer.git
+
+mkdir -p cartographer/build
+
+cd cartographer/build
+
+cmake .. -G Ninja
+
+ninja
+
+ninja test
+
+sudo ninja install
+
 Google Cartographer For ROS:
 
 Rplidar For ROS:
